@@ -13,6 +13,7 @@ body{
 .navbar {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 
     }
@@ -88,24 +89,23 @@ body{
             
 
         
-        .primary-button {
+        .primary {
             background-color: #00b1f7;
             color: white;
             border: none;
-            border-radius: 15px;
-            padding-left: 20px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            border-radius: 20px;
+           padding: 13px;
+           font-size: 16px;
+           margin-right: 15px;
         }
         
         
-        .secondary-button {
+        .secondary {
             border: 2px solid rgb(255, 254, 254);
-            border-radius: 10px;
-            padding: 8px;
+            border-radius: 20px;
+            padding-top: 10px;
             color: aliceblue;
-            padding-left: 40px;
+            padding-left: 30px;
             padding-right: 30px;
         
 
@@ -113,15 +113,13 @@ body{
 
         .div{
             display: flex;
-            gap: 50px;
             margin-left: 600px;
-            margin-right: 600px;
         }
         
         .cred{
             display: flex;
             justify-content: center;
-            margin-top: 100px;
+            margin-top: 50px;
         }
         .cre1{
             background-color: aliceblue;
@@ -268,7 +266,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 2px;
    }
  .card01{
     border: 2px solid rgb(17, 167, 218);
@@ -277,6 +275,15 @@ body{
     width: 300px;
     border-radius: 5px;
 
+ }
+ .card02{
+    border: 2px solid rgb(17, 167, 218);
+    background-color: rgb(4, 14, 71);
+    height: 32vw;
+    width: 300px;
+    border-radius: 5px;
+    color:white;
+    margin-bottom: 20px;
  }
  .details h2{
     text-align: center;
@@ -410,14 +417,15 @@ body{
     
 @media (max-width: 480px) {
     .hero{
-        height: 150vw;
+        height: 200vw;
     }
     .logo{
-        margin-left: 700px;
-        font-size: 12px;
-    }
-    .links ul li{
+        margin-left: 0px;
         font-size: 10px;
+    }
+   
+    .links ul li{
+        font-size: 16px;
         margin: 0 2px;
     }
     .div{
@@ -550,6 +558,19 @@ body{
 }
 .made{
     padding-left: 20px;
+}
+.card02{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.appoint{
+    width: 350px;
+   margin-left: 10px;
 }
 }
 
